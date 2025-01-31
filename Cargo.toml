@@ -1,0 +1,11 @@
+[package]
+name = "barrier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dnslib = { path = "../dqy" }
+regex = "1.11.1"
+tokio = { version = "1", features = ["full"] }
+type2network = { git = "https://github.com/dandyvica/type2network" }
+type2network_derive = { git = "https://github.com/dandyvica/type2network/" }
